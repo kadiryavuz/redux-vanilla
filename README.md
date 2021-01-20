@@ -1,5 +1,5 @@
-* * Redux-Vanilla Player
-Demonstrating how to use opinionated (Toolkit) version of Redux in a sample vanilla JS project
+Redux-Vanilla Player
+  Demonstrating how to use opinionated (Toolkit) version of Redux in a sample vanilla JS project
 
 - A basic Video.js provided video player html is injected via HtmlWebpackPlugin
 
@@ -7,12 +7,12 @@ Demonstrating how to use opinionated (Toolkit) version of Redux in a sample vani
 
 - Overall Redux implementation with Redux Toolkit
 
-* Usage
+Usage
  - Run 'npm start' to start project locally on: http://localhost:9000/
 
  - Run 'npm run build' to get a bundled js exported to /dist folder
 
- * Demo cases
+ Demo cases
 
  - Start the project and check Redux Dev Tools on Chrome
  - Press play on the player
