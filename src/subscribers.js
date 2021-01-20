@@ -1,7 +1,5 @@
 import { selectError } from './reducers/playerReducer';
-// import path from 'path';
 import store from './store';
-// import pug from 'pug';
 
 
 export const handleError = () => {
@@ -9,8 +7,7 @@ export const handleError = () => {
     if(errors.length > 0) {
         const error = errors[0];
         const parentX = document.getElementsByTagName('video')[0].parentElement;
-        // const _path = path.resolve(__dirname, 'error.pug');
-        // const retVal = pug.renderFile(_path, {error});
+       
         const errContainer = document.createElement('div');
         errContainer.classList.add('err-container');
 
